@@ -1,6 +1,5 @@
-# DATASCI 266: Final Project
+# Headline Evaluation and Style Independency in Journalism
 
-## Headline Evaluation and Style Independency in Journalism
 ####  Rafael Arbex-Murut, Yeshwanth Somu
 
 The intention of this project is to quantify predictability in journalism. We accomplished this by analyzing the relationships between the headlines of articles, the bodies of articles, and their respective editorial sources. We measured the propensity of news outlets to have descriptive headlines for their own articles, and on the same dataset, we also measured the uniqueness of news sources’ editorial styles.
