@@ -11,17 +11,24 @@ We used the [*All the News*](https://www.kaggle.com/datasets/snapcrack/all-the-n
 
 ## Repo Structure
 
-Our analysis is broken into two subdirectories. The notebooks within the subdirectories are ordered by the execution order.
+Our project is structured into two subdirectories covering both portions of the project. A final report and presentation are included in the main directory.
 
-    ├── Headline Evaluation                             
-       ├── Determining Pegasus Parameters.ipynb        
-       ├── Determining T5 Parameters.ipynb             
-       ├── Evaluation Headlines Pegasus.ipynb          
-       ├── Evaluation Headlines T5.ipynb               
-       └── Visuals Headline Evaluation.ipynb           
-    ├── News Outlet Classification                      
-       ├── Full Classification.ipynb                   # News outlet classification done on the full set of 12 news outlets
-       └── Subset Classification.ipynb                 # Follow-up classification done on the subset of 6 news outlets
-    └── README.md
-
-
+```bash
+├── DATASCI 266 Final Report.pdf
+├── Headline Evaluation                                            #Headline evaluation using T5 and Pegasus. Algorithm and results included as png files
+│   ├── Determining Pegasus Parameters.ipynb
+│   ├── Determining T5 Parameters.ipynb
+│   ├── Evaluation Headlines Pegasus.ipynb
+│   ├── Evaluation Headlines T5.ipynb
+│   ├── Headline Evaluation Algorithm.png
+│   ├── Pegasus RougeL Scores.png
+│   ├── T5 RougeL Scores.png
+│   └── Visuals Headline Evaluation.ipynb
+├── News Outlet Classification                                       #Classification done on full set of 12 news putlets, and subset of 6 news outlets
+│   ├── Full Classification.ipynb                                       
+│   ├── Outlet Classification Confusion Matrix - 12 Outlets.png
+│   ├── Outlet Classification Confusion Matrix - 6 Outlets.png
+│   └── Subset Classification.ipynb
+├── Presentation.pdf
+└── README.md
+```
